@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Anshu Seth — Professional Graphic Designer | Portfolio</title>
+  <meta name="description" content="Anshu Seth is a professional graphic designer turning ideas into stunning visual designs. Specializing in logo design, flyers, posters, banners, brochures, business cards, social media posts, and product advertisements.">
+  <meta name="keywords" content="Anshu Seth, Graphic Designer, Portfolio, Logo Design, Flyer Design, Poster Design, Banner Design, Brochure Design, Business Card Design, Social Media Posts, Product Advertisement Design, Freelance Graphic Designer">
+  <meta name="author" content="Anshu Seth">
+  <meta name="theme-color" content="#0D0D0D">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anshu Seth — Professional Graphic Designer">
+  <meta property="og:description" content="Turning Ideas Into Stunning Visual Designs. View my professional graphic design samples.">
+  <meta property="og:image" content="assets/portfolio/product-1.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Anshu Seth — Professional Graphic Designer">
+  <meta property="twitter:description" content="Turning Ideas Into Stunning Visual Designs. View my professional graphic design samples.">
+
+  <!-- Google Fonts (Poppins & Montserrat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Animated Ambient Background Blobs -->
+  <div class="ambient-glow">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">AS</span>
+        <div class="logo-text">
+          <span class="logo-name">Anshu Seth</span>
+          <span class="logo-tagline">Graphic Designer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#why-me" class="nav-link">Why Choose Me</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Button & Menu Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-secondary nav-cta">Hire Me</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">
+          <i data-lucide="menu" id="menu-icon"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+        <li><a href="#why-me" class="mobile-nav-link">Why Choose Me</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li class="mobile-cta"><a href="#contact" class="btn btn-primary w-full">Hire Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section-padding">
+    <div class="grid-overlay"></div>
+    
+    <!-- Rotating Ring Accents (Desktop only) -->
+    <div class="hero-rings">
+      <div class="ring ring-1"><span class="ring-dot ring-dot-1"></span></div>
+      <div class="ring ring-2"><span class="ring-dot ring-dot-2"></span></div>
+    </div>
+
+    <!-- Floating Chips (Desktop only) -->
+    <div class="floating-chip chip-1 animate-float-slow">✦ Branding</div>
+    <div class="floating-chip chip-2 animate-float">✦ Social Media</div>
+    <div class="floating-chip chip-3 animate-float-slow">✦ Posters</div>
+    <div class="floating-chip chip-4 animate-float">✦ Product Ads</div>
+
+    <div class="hero-container container">
+      <div class="hero-badge animate-fade-in">
+        <i data-lucide="sparkles" class="text-accent"></i>
+        <span>Turning Ideas Into Stunning Visual Designs</span>
+      </div>
+
+      <h1 class="hero-title animate-fade-in-up">
+        <span class="text-gradient">Anshu</span> <span class="text-white">Seth</span>
+      </h1>
+
+      <p class="hero-subtitle text-gradient-brand animate-fade-in-up">
+        Professional Graphic Designer
+      </p>
+
+      <p class="hero-description animate-fade-in-up">
+        I create modern, creative, and professional designs that help businesses build a strong visual identity.
+      </p>
+
+      <div class="hero-buttons animate-fade-in-up">
+        <a href="#contact" class="btn btn-primary">
+          <span>Hire Me</span>
+          <i data-lucide="arrow-up-right"></i>
+        </a>
+        <a href="#portfolio" class="btn btn-glass">
+          <i data-lucide="folder-open" class="text-accent"></i>
+          <span>View Portfolio</span>
+        </a>
+      </div>
+
+      <!-- Hero Stats -->
+      <div class="hero-stats animate-fade-in-up">
+        <div class="stat-item">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Design Services</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Creative Niches</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Dedication</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Infinite Marquee Strip -->
+    <div class="marquee-strip">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span>✦ Logo Design</span>
+          <span>✦ Flyer Design</span>
+          <span>✦ Poster Design</span>
+          <span>✦ Banner Design</span>
+          <span>✦ Brochure Design</span>
+          <span>✦ Business Card Design</span>
+          <span>✦ Social Media Posts</span>
+          <span>✦ Product Advertisement Design</span>
+        </div>
+        <!-- Duplicate for loop seamlessness -->
+        <div class="marquee-content" aria-hidden="true">
+          <span>✦ Logo Design</span>
+          <span>✦ Flyer Design</span>
+          <span>✦ Poster Design</span>
+          <span>✦ Banner Design</span>
+          <span>✦ Brochure Design</span>
+          <span>✦ Business Card Design</span>
+          <span>✦ Social Media Posts</span>
+          <span>✦ Product Advertisement Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about section-padding reveal-element">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Visual Column -->
+        <div class="about-visual">
+          <div class="about-card glass-strong">
+            <div class="grid-overlay"></div>
+            
+            <!-- Avatar / Monogram -->
+            <div class="avatar-container">
+              <div class="avatar-glow"></div>
+              <div class="avatar-inner">AS</div>
+            </div>
+
+            <h3 class="about-card-title">Anshu Seth</h3>
+            <p class="about-card-subtitle text-accent">Professional Graphic Designer</p>
+
+            <div class="tools-tags">
+              <span>Adobe Photoshop</span>
+              <span>Adobe Illustrator</span>
+              <span>Figma</span>
+              <span>Canva Pro</span>
+              <span>CorelDRAW</span>
+            </div>
+
+            <!-- Status Badge -->
+            <div class="status-badge">
+              <span class="status-dot">
+                <span class="status-ping"></span>
+              </span>
+              <span>Available for freelance projects</span>
+            </div>
+
+            <!-- Floating visual chip -->
+            <div class="about-floating-chip glass animate-float">
+              <i data-lucide="sparkles" class="text-accent"></i>
+              <span>Creative &amp; Detail-Oriented</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Column -->
+        <div class="about-content">
+          <div class="section-heading left-align">
+            <span class="section-eyebrow">
+              <span class="eyebrow-dot"></span> About Me
+            </span>
+            <h2 class="section-title">
+              Designing With <span class="text-gradient-brand">Purpose &amp; Passion</span>
+            </h2>
+          </div>
+
+          <p class="about-description">
+            Hi, I'm Anshu Seth, a passionate graphic designer focused on creating eye-catching designs for brands and businesses. I specialize in creating modern visuals that communicate ideas clearly and professionally.
+          </p>
+
+          <ul class="focus-list">
+            <li>
+              <span class="check-icon"><i data-lucide="check"></i></span>
+              <span>Eye-catching brand visuals</span>
+            </li>
+            <li>
+              <span class="check-icon"><i data-lucide="check"></i></span>
+              <span>Clean, modern design language</span>
+            </li>
+            <li>
+              <span class="check-icon"><i data-lucide="check"></i></span>
+              <span>Clear &amp; professional messaging</span>
+            </li>
+          </ul>
+
+          <div class="about-buttons">
+            <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+            <a href="#portfolio" class="btn btn-glass">
+              <i data-lucide="download" class="text-accent"></i>
+              <span>View My Work</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services section-padding reveal-element">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-eyebrow">
+          <span class="eyebrow-dot"></span> What I Do
+        </span>
+        <h2 class="section-title">
+          Design Services Built to <span class="text-gradient-brand">Make You Stand Out</span>
+        </h2>
+        <p class="section-description">
+          From branding to advertising — a full range of creative services crafted to give your business a premium, professional edge.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="pen-tool"></i>
+            </div>
+            <span class="service-number">01</span>
+          </div>
+          <h3 class="service-card-title">Logo Design</h3>
+          <p class="service-card-description">
+            Distinct, memorable logos that define and elevate your brand identity.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="file-text"></i>
+            </div>
+            <span class="service-number">02</span>
+          </div>
+          <h3 class="service-card-title">Flyer Design</h3>
+          <p class="service-card-description">
+            Eye-catching flyers engineered to grab attention instantly.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="image"></i>
+            </div>
+            <span class="service-number">03</span>
+          </div>
+          <h3 class="service-card-title">Poster Design</h3>
+          <p class="service-card-description">
+            Bold posters built to stand out and communicate your message.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="rectangle-horizontal"></i>
+            </div>
+            <span class="service-number">04</span>
+          </div>
+          <h3 class="service-card-title">Banner Design</h3>
+          <p class="service-card-description">
+            High-impact banners for web, print, and ad campaigns.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="book-open"></i>
+            </div>
+            <span class="service-number">05</span>
+          </div>
+          <h3 class="service-card-title">Brochure Design</h3>
+          <p class="service-card-description">
+            Elegant multi-page brochures that tell your brand's story.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="credit-card"></i>
+            </div>
+            <span class="service-number">06</span>
+          </div>
+          <h3 class="service-card-title">Business Card Design</h3>
+          <p class="service-card-description">
+            Premium cards that leave a lasting professional impression.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 7 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="share-2"></i>
+            </div>
+            <span class="service-number">07</span>
+          </div>
+          <h3 class="service-card-title">Social Media Posts</h3>
+          <p class="service-card-description">
+            Scroll-stopping creatives tailored for every platform.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+
+        <!-- Service Card 8 -->
+        <div class="service-card glass">
+          <div class="card-glow"></div>
+          <div class="service-header">
+            <div class="service-icon-box">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <span class="service-number">08</span>
+          </div>
+          <h3 class="service-card-title">Product Advertisement Design</h3>
+          <p class="service-card-description">
+            Polished product ads with commercial-grade visuals.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Learn more</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section-padding reveal-element">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-eyebrow">
+          <span class="eyebrow-dot"></span> Portfolio
+        </span>
+        <h2 class="section-title">
+          A Glimpse of My <span class="text-gradient-brand">Creative Work</span>
+        </h2>
+        <p class="section-description">
+          A selection of personal design samples that showcase my style, technique, and attention to detail across different design niches.
+        </p>
+      </div>
+
+      <!-- Disclaimer Note -->
+      <div class="portfolio-disclaimer glass">
+        <i data-lucide="images" class="text-accent"></i>
+        <span>All designs shown below are original personal samples. No fake clients or companies.</span>
+      </div>
+
+      <!-- Portfolio Category Groups -->
+      <div class="portfolio-categories">
+        
+        <!-- Category Block 1 -->
+        <div class="category-block">
+          <div class="category-header">
+            <div class="category-info">
+              <span class="category-number">01.</span>
+              <h3 class="category-title">Product Advertisement Design</h3>
+            </div>
+            <p class="category-desc">
+              Creative product visuals with premium editing, lighting, and commercial style.
+            </p>
+          </div>
+          <div class="portfolio-grid">
+            <!-- Project 3 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/product-3.jpg" alt="Coca-Cola Refreshment Ad - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Product Ad</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Coca-Cola Refreshment Ad</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+            <!-- Project 4 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/product-4.jpg" alt="Naturals Orange Juice Ad - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Product Ad</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Orange Juice Product Ad</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+            <!-- Project 5 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/product-5.jpg" alt="Garnier Vitamin C Face Wash Ad - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Product Ad</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Garnier Skincare Ad</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category Block 2 -->
+        <div class="category-block">
+          <div class="category-header">
+            <div class="category-info">
+              <span class="category-number">02.</span>
+              <h3 class="category-title">Logo Design</h3>
+            </div>
+            <p class="category-desc">
+              Distinctive, modern logos crafted to define and elevate your brand identity.
+            </p>
+          </div>
+          <div class="portfolio-grid">
+            <!-- Project 3 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/logo-1.png" alt="Brand Logo Design - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Logo</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Brand Logo Design</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category Block 3 -->
+        <div class="category-block">
+          <div class="category-header">
+            <div class="category-info">
+              <span class="category-number">03.</span>
+              <h3 class="category-title">Social Media Creative Design</h3>
+            </div>
+            <p class="category-desc">
+              Eye-catching designs created to attract customers.
+            </p>
+          </div>
+          <div class="portfolio-grid">
+            <!-- Project 5 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/social-1.jpg" alt="Social Media Creative - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Social Media</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Social Media Creative</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+            <!-- Project 6 -->
+            <a href="#contact" class="project-card glass">
+              <div class="project-img-wrapper">
+                <img src="assets/portfolio/social-2.jpg" alt="Engagement Post - Design sample by Anshu Seth" loading="lazy" class="project-img">
+                <div class="project-overlay"></div>
+                <span class="project-tag">Social Media</span>
+              </div>
+              <div class="project-meta">
+                <div class="project-text">
+                  <h4 class="project-title">Engagement Post</h4>
+                  <p class="project-subtitle">Design Sample</p>
+                </div>
+                <div class="project-icon">
+                  <i data-lucide="arrow-up-right"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Me Section -->
+  <section id="why-me" class="why-choose-me section-padding reveal-element">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-eyebrow">
+          <span class="eyebrow-dot"></span> Why Choose Me
+        </span>
+        <h2 class="section-title">
+          Design That <span class="text-gradient-brand">Delivers Real Value</span>
+        </h2>
+        <p class="section-description">
+          I'm committed to making the design process smooth, reliable, and rewarding for you.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Benefit 1 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Premium Quality Designs</h3>
+            <p class="why-card-desc">Polished, pixel-perfect results crafted to look high-end.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="lightbulb"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Creative Concepts</h3>
+            <p class="why-card-desc">Fresh, original ideas tailored to your brand's personality.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="zap"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Fast Delivery</h3>
+            <p class="why-card-desc">Quick turnarounds without ever cutting corners on quality.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="wallet"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Affordable Pricing</h3>
+            <p class="why-card-desc">Flexible rates designed to suit every kind of budget.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 5 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="messages-square"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Professional Communication</h3>
+            <p class="why-card-desc">Clear, timely, and friendly updates at every step.</p>
+          </div>
+        </div>
+
+        <!-- Benefit 6 -->
+        <div class="why-card glass">
+          <div class="why-icon-wrapper">
+            <i data-lucide="heart-handshake"></i>
+          </div>
+          <div class="why-info">
+            <h3 class="why-card-title">Client-Focused Approach</h3>
+            <p class="why-card-desc">Your vision and goals guide every single design decision.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Experience Placeholder Section -->
+  <section id="experience" class="experience section-padding reveal-element">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-eyebrow">
+          <span class="eyebrow-dot"></span> Client Experience
+        </span>
+        <h2 class="section-title">
+          Your Words Could <span class="text-gradient-brand">Be Featured Here</span>
+        </h2>
+        <p class="section-description">
+          I'm just starting my journey, so this section is ready and waiting. Be one of my first clients to share your experience.
+        </p>
+      </div>
+
+      <div class="experience-grid">
+        <!-- Card 1 -->
+        <div class="experience-card glass">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p class="experience-text">
+            "This space is reserved for your honest feedback once we collaborate on a project."
+          </p>
+          <div class="rating">
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+          </div>
+          <div class="client-profile">
+            <div class="client-avatar">
+              <i data-lucide="user"></i>
+            </div>
+            <div class="client-details">
+              <h4 class="client-name">Your Feedback</h4>
+              <p class="client-title">Future testimonial</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="experience-card glass">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p class="experience-text">
+            "Your kind words could be the very next testimonial featured right here."
+          </p>
+          <div class="rating">
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+          </div>
+          <div class="client-profile">
+            <div class="client-avatar">
+              <i data-lucide="user"></i>
+            </div>
+            <div class="client-details">
+              <h4 class="client-name">Your Feedback</h4>
+              <p class="client-title">Future testimonial</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="experience-card glass">
+          <i data-lucide="quote" class="quote-icon"></i>
+          <p class="experience-text">
+            "I'd love for your experience to be highlighted in this section soon."
+          </p>
+          <div class="rating">
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+            <i data-lucide="star" class="star-icon"></i>
+          </div>
+          <div class="client-profile">
+            <div class="client-avatar">
+              <i data-lucide="user"></i>
+            </div>
+            <div class="client-details">
+              <h4 class="client-name">Your Feedback</h4>
+              <p class="client-title">Future testimonial</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-padding reveal-element">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-eyebrow">
+          <span class="eyebrow-dot"></span> Get In Touch
+        </span>
+        <h2 class="section-title">
+          Let's Create Something <span class="text-gradient-brand">Amazing Together</span>
+        </h2>
+        <p class="section-description">
+          Have a project in mind? Reach out and let's turn your ideas into stunning visuals.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Column -->
+        <div class="contact-info">
+          
+          <!-- Contact Card: Phone -->
+          <a href="tel:+917572894044" class="contact-item glass">
+            <div class="contact-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 7572894044</span>
+            </div>
+          </a>
+
+          <!-- Contact Card: WhatsApp -->
+          <a href="https://wa.me/917572894044?text=Hi%20Anshu%2C%20I%27d%20love%20to%20discuss%20a%20design%20project%20with%20you!" target="_blank" rel="noopener noreferrer" class="contact-item glass-whatsapp">
+            <div class="contact-icon">
+              <i data-lucide="message-circle"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">WhatsApp</span>
+              <span class="contact-value">Chat on WhatsApp</span>
+            </div>
+          </a>
+
+          <!-- Contact Card: Location -->
+          <div class="contact-item glass">
+            <div class="contact-icon">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">India</span>
+            </div>
+          </div>
+
+          <!-- Availability card -->
+          <div class="availability-card glass">
+            <div class="availability-status">
+              <span class="status-dot">
+                <span class="status-ping"></span>
+              </span>
+              <span>Available for new projects</span>
+            </div>
+            <p class="availability-text">
+              I usually respond within a few hours. Let's discuss your design needs today!
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Logo and brand details -->
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-badge">AS</span>
+            <span class="logo-name">Anshu Seth</span>
+          </div>
+          <p class="footer-tagline">
+            "Turning Ideas Into Stunning Visual Designs". Helping brands build a strong, modern visual identity.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#why-me">Why Choose Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services list -->
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Logo Design</a></li>
+            <li><a href="#services">Flyer &amp; Poster Design</a></li>
+            <li><a href="#services">Banner Design</a></li>
+            <li><a href="#services">Brochure Design</a></li>
+            <li><a href="#services">Business Card Design</a></li>
+            <li><a href="#services">Social Media Posts</a></li>
+            <li><a href="#services">Product Advertisement Design</a></li>
+          </ul>
+        </div>
+
+        <!-- Get In Touch -->
+        <div class="footer-links">
+          <h4>Get In Touch</h4>
+          <ul class="contact-links">
+            <li><a href="tel:+917572894044"><i data-lucide="phone"></i> +91 7572894044</a></li>
+            <li><a href="mailto:anshuseth.design@gmail.com"><i data-lucide="mail"></i> anshuseth.design@gmail.com</a></li>
+            <li class="footer-cta"><a href="#contact" class="btn btn-primary">Hire Me</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Anshu Seth | All Rights Reserved</p>
+        <a href="#home" class="back-to-top">
+          <span>Back to top</span>
+          <span class="top-icon"><i data-lucide="arrow-up"></i></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/917572894044?text=Hi%20Anshu%2C%20I%27d%20love%20to%20discuss%20a%20design%20project%20with%20you!" target="_blank" rel="noopener noreferrer" class="whatsapp-floating" id="whatsapp-floating" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-floating-tooltip">Chat with me 👋</span>
+    <span class="whatsapp-icon-wrapper">
+      <span class="whatsapp-ping"></span>
+      <svg class="whatsapp-svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.012 2C6.48 2 2.006 6.474 2.006 12c0 1.767.46 3.427 1.267 4.887l-1.272 4.646c-.085.31.2.597.51.51l4.78-1.258A9.948 9.948 0 0 0 12.012 22c5.533 0 10.007-4.474 10.007-10S17.546 2 12.012 2zm5.727 14.17c-.25.706-1.233 1.29-1.703 1.348-.47.058-.93.226-2.984-.57-2.63-1.02-4.322-3.7-4.453-3.876-.13-.176-1.077-1.436-1.077-2.738 0-1.302.68-1.942.922-2.203.242-.26.53-.326.706-.326.177 0 .354.004.507.012.16.008.375-.062.586.446.21.508.723 1.76.787 1.892.062.13.104.283.016.457-.088.174-.132.283-.264.435-.133.153-.278.34-.397.457-.132.13-.27.272-.115.54.154.266.685 1.13 1.47 1.83.993.882 1.828 1.156 2.083 1.286.255.13.403.11.554-.065.152-.175.648-.755.82-.993.174-.239.35-.196.59-.108.24.088 1.52.717 1.782.848.263.13.438.196.504.305.066.11.066.63-.184 1.336z"/>
+      </svg>
+    </span>
+  </a>
+
+  <!-- Lucide Icons Library -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
